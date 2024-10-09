@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript 2024</title>
+    <meta name="author" content="itgid.info" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jura:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/night.css" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://itgid.info/favicon.ico"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="one-column">
+          <h1>JavaScript 2024</h1>
+          <h2>Проект – калькулятор на будівельному сайті</h2>
+
+          <section>
+            <h3>Калькулятор витрати стяжки підлоги</h3>
+            <div class="row">
+              <div class="six columns">
+                <img src="images/budmajster.jpg" alt="" class="goods-img" />
+              </div>
+              <div class="six columns">
+                <div>
+                  <select class="goods">
+                    <option value="budmajster">
+                      Стяжка для підлоги BudMajster D-10 цементна М150 25 кг
+                    </option>
+                    <option value="ceresit">
+                      Стяжка для підлоги Ceresit 25 кг
+                    </option>
+                    <option value="siltek">
+                      Стяжка для підлоги Siltek F-20 25 кг
+                    </option>
+                    <option value="polimin">
+                      Стяжка для підлоги Полімін СЦ-5 25 кг
+                    </option>
+                  </select>
+                  <div>
+                    Площа (метри квадратні):
+                    <input type="number" class="square" value="1" />
+                  </div>
+                  <div>
+                    Товщина шару (мм):
+                    <input type="number" class="layer" value="1" />
+                  </div>
+                  <div class="out">Витрата: <span class="out-1"></span></div>
+                  <div class="out">
+                    Кількість мішків: <span class="out-2"></span>
+                  </div>
+                  <div class="out">Ціна: <span class="out-3"></span></div>
+                  <div><button class="button-primary b-1">Витрата</button></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="sprint_07.js"></script>
+  </body>
+</html>
